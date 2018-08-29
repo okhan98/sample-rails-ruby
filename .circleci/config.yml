@@ -57,3 +57,5 @@ jobs:
       - store_artifacts:
           path: /tmp/test-results
           destination: test-results
+      - store_testCoverage:
+          path: coverage/index.html
